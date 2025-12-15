@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f3f6;   /* Flipkart-like */
+}
+
+.section-box {
+  width: 100%;
+  margin: 12px 0;
+}
+
+.section-container {
+  max-width: 1350px;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+}
+
+
