@@ -5,6 +5,7 @@ import DealSection from "../components/DealSection/DealSection";
 import OfferSection from "../components/OfferSection/OfferSection";
 import FashionSection from "../components/FashionSection/FashionSection";
 import MultiDealSection from "../components/MultiDealSection/MultiDealSection";
+import HorizontalSlider from "../components/HorizontalSlider/HorizontalSlider";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <OfferSection />
       <FashionSection />
       <MultiDealSection />
+      <HorizontalSlider />
     </div>
   );
 }
