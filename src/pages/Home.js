@@ -8,6 +8,7 @@ import MultiDealSection from "../components/MultiDealSection/MultiDealSection";
 import HorizontalSlider from "../components/HorizontalSlider/HorizontalSlider";
 import GadgetsSection from "../components/GadgetsSection/GadgetsSection";
 import BrandDirectory from "../components/BrandDirectory/BrandDirectory";
+import Footer from "../components/Footer/Footer";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       <HorizontalSlider />
       <GadgetsSection />
       <BrandDirectory />
+      <Footer />
     </div>
   );
 }
