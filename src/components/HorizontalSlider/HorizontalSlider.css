@@ -1,0 +1,68 @@
+.slider-section {
+  background: #ffffff;
+  padding: 16px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.slider-heading {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+/* ===== ARROWS ===== */
+.slider-arrow {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  background: #ffffff;
+  border: 1px solid #ddd;
+  font-size: 26px;
+  padding: 10px 14px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slider-arrow.left {
+  left: 0;
+}
+
+.slider-arrow.right {
+  right: 0;
+}
+
+/* ===== SLIDER ROW ===== */
+.slider-row {
+  display: flex;
+  gap: 24px;
+  overflow-x: hidden;   /* 🔥 arrow-only scrolling */
+  scroll-behavior: smooth;
+}
+
+/* ===== CARD ===== */
+.slider-card {
+  min-width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.slider-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.slider-card:hover img {
+  transform: scale(1.05);
+}
+
+.slider-title {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.slider-price {
+  font-size: 14px;
+  font-weight: 600;
+}
