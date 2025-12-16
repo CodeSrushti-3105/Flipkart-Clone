@@ -7,6 +7,7 @@ import FashionSection from "../components/FashionSection/FashionSection";
 import MultiDealSection from "../components/MultiDealSection/MultiDealSection";
 import HorizontalSlider from "../components/HorizontalSlider/HorizontalSlider";
 import GadgetsSection from "../components/GadgetsSection/GadgetsSection";
+import BrandDirectory from "../components/BrandDirectory/BrandDirectory";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <MultiDealSection />
       <HorizontalSlider />
       <GadgetsSection />
+      <BrandDirectory />
     </div>
   );
 }
