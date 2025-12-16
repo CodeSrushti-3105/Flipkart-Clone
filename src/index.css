@@ -6,7 +6,8 @@ body {
 
 .section-box {
   width: 100%;
-  margin: 12px 0;
+  margin: 0;              /* ✅ REMOVE GAP */
+  padding-top: 8px;       /* ✅ Flipkart-like spacing */
 }
 
 .section-container {

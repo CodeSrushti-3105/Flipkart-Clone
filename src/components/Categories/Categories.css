@@ -1,7 +1,8 @@
 .categories {
   background-color: #ffffff;
-  margin-bottom: 10px;          /* spacing below */
-  box-shadow: 0 1px 1px rgba(189, 184, 184, 0.1); /* box effect */
+  margin-bottom: 0;        /* ✅ NO GAP */
+  border-bottom: 1px solid #e0e0e0;  /* Flipkart line */
+  box-shadow: none;
 }
 
 .categories-container {
@@ -9,8 +10,11 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-  padding: 20px 16px;
+  margin-bottom: 0;
+  box-shadow: none;
+  padding: 12px 20px;   /* untouched */
 }
+
 
 .category-item {
   display: flex;
