@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-container">
-        
+
         {/* LEFT */}
         <div className="navbar-left">
           <div className="logo">
@@ -24,12 +24,31 @@ function Navbar() {
 
         {/* RIGHT */}
         <div className="navbar-right">
-          <div className="nav-item">👤 Login ▾</div>
+
+          {/* LOGIN */}
+          <div className="nav-item login-wrapper">
+            👤 Login ▾
+
+            <div className="login-dropdown">
+              <div className="login-top">
+                <span>New customer?</span>
+                <span className="signup">Sign Up</span>
+              </div>
+
+              <div className="login-item">My Profile</div>
+              <div className="login-item">Flipkart Plus Zone</div>
+              <div className="login-item">Orders</div>
+              <div className="login-item">Wishlist</div>
+              <div className="login-item">Rewards</div>
+              <div className="login-item">Gift Cards</div>
+            </div>
+          </div>
+
           <div className="nav-item">🛒 Cart</div>
           <div className="nav-item">🏪 Become a Seller</div>
           <div className="nav-item">⋮</div>
-        </div>
 
+        </div>
       </div>
     </div>
   );
