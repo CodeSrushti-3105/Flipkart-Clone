@@ -66,3 +66,15 @@
   font-size: 14px;
   font-weight: 600;
 }
+
+/* ================= MOBILE ================= */
+@media (max-width: 600px) {
+  .slider-row {
+    overflow-x: auto;
+  }
+
+  .slider-card {
+    min-width: 160px;
+  }
+}
+
