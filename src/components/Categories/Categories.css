@@ -36,3 +36,16 @@
 .category-item:hover .category-text {
   color: #2874f0;
 }
+
+/* ================= MOBILE ================= */
+@media (max-width: 600px) {
+  .categories-container {
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  .category-text {
+    font-size: 12px;
+  }
+}

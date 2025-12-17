@@ -59,3 +59,24 @@
 .banner-arrow:hover {
   background: #f5f5f5;
 }
+
+/* ================= MOBILE ================= */
+@media (max-width: 600px) {
+  .banner-slider {
+    height: 150px;
+  }
+
+  .banner-arrow {
+    width: 32px;
+    height: 60px;
+    font-size: 22px;
+  }
+}
+
+/* ================= TABLET ================= */
+@media (max-width: 900px) {
+  .banner-slider {
+    height: 190px;
+  }
+}
+

@@ -123,3 +123,54 @@
   background: #f1f3f6;
 }
 
+
+/* ================= TABLET ================= */
+@media (max-width: 900px) {
+  .navbar-center {
+    width: 380px;
+    margin-left: 16px;
+  }
+
+  .navbar-right {
+    gap: 24px;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 600px) {
+  .navbar-container {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 8px 12px;
+  }
+
+  /* LOGO */
+  .navbar-left .logo {
+    font-size: 22px;
+  }
+
+  .plus {
+    font-size: 10px;
+  }
+
+  /* SEARCH BAR */
+  .navbar-center {
+    width: 100%;
+    margin: 8px 0 0 0;
+    order: 3; /* moves search below */
+  }
+
+  .navbar-center input {
+    font-size: 14px;
+  }
+
+  /* RIGHT ITEMS */
+  .navbar-right {
+    gap: 16px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+}
+

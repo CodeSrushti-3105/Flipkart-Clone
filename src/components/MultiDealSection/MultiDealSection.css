@@ -68,3 +68,15 @@
   font-weight: 600;
   color: #008000;
 }
+
+/* ================= MOBILE ================= */
+@media (max-width: 600px) {
+  .multi-deal-section {
+    flex-direction: column;
+  }
+
+  .deal-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+

@@ -82,3 +82,40 @@
   font-size: 11px;
   border-radius: 2px;
 }
+
+/* ================= MOBILE ================= */
+@media (max-width: 600px) {
+  .footer-top {
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .footer-divider {
+    display: none;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+  }
+}
+
+/* ================= TABLET (iPad) ================= */
+@media (max-width: 900px) {
+  .footer-top {
+    flex-wrap: wrap;          /* 🔑 KEY FIX */
+    gap: 32px;
+    padding: 32px;
+  }
+
+  .footer-col {
+    min-width: 45%;           /* 2 columns per row */
+  }
+
+  .footer-divider {
+    display: none;            /* divider looks bad on tablet */
+  }
+}
+
+

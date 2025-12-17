@@ -26,3 +26,25 @@
 .brand-items {
   color: #666;
 }
+
+/* ================= MOBILE ================= */
+@media (max-width: 600px) {
+  .brand-directory {
+    padding: 16px;
+    font-size: 13px;
+  }
+
+  .brand-heading {
+    font-size: 15px;
+  }
+
+  .brand-row {
+    margin-bottom: 10px;
+  }
+
+  .brand-title {
+    display: block;
+    margin-bottom: 4px;
+  }
+}
+
