@@ -17,8 +17,11 @@ function BannerSlider() {
     <div className="section-box">
       <div className="section-container">
         <div className="banner-slider">
-          
-          <button className="arrow arrow-left" onClick={prevSlide}>
+
+          <button
+            className="banner-arrow banner-arrow-left"
+            onClick={prevSlide}
+          >
             ‹
           </button>
 
@@ -28,7 +31,10 @@ function BannerSlider() {
             className="banner-image"
           />
 
-          <button className="arrow arrow-right" onClick={nextSlide}>
+          <button
+            className="banner-arrow banner-arrow-right"
+            onClick={nextSlide}
+          >
             ›
           </button>
 
